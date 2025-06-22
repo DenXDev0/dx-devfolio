@@ -1,0 +1,30 @@
+.plannedProjects {
+  margin-top: 3rem;
+
+  h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    padding: 0 1rem;
+    list-style: outside;
+
+    li {
+      padding: 1rem;
+
+      h3 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1rem;
+        color: var(--text-tt);
+      }
+
+      p {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.4;
+        font-weight: 500;
+      }
+    }
+  }
+}

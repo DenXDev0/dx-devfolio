@@ -1,0 +1,23 @@
+@use '@/styles/mixins' as *;
+
+.about {
+  @include section-spacing;
+  margin-inline: auto;
+  margin-top: 6rem;
+  text-align: left;
+
+  h2 {
+    @include section-title;
+  }
+
+  p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text-fg);
+    opacity: 0.95;
+
+    a {
+      color: var(--text);
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@use "./variables";
+
+body {
+  font-family: var(--font-base);
+  background-color: var(--bg);
+  color: var(--text-fg);
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 500;
+}
+
+.Layout {
+  margin: 0 5rem;
+  display: grid;
+  grid-column-gap: 20%;
+  grid-template:
+    "header main" 1fr
+    "header footer" auto / 30% 1fr;
+
+  header {
+    grid-area: header;
+    top: 0;
+    position: sticky;
+    height: 100vh;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  footer {
+    grid-area: footer;
+    height: 60px;
+  }
+
+  @media (max-width: 768px) {
+    grid-template:
+      "header" auto
+      "main" 1fr
+      "footer" auto / 1fr;
+
+    margin: 0 1.2rem;
+
+    header {
+      position: relative;
+      height: auto;
+    }
+  }
+}

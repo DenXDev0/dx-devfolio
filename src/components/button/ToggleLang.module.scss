@@ -1,0 +1,41 @@
+        .lang {
+            display: inline-flex;
+            background: var(--btn-bg);
+            border-radius: 9999px;
+            box-shadow: 0 1px 12px rgb(0 0 0 / 0.1);
+            padding: 5px 8px;
+            cursor: pointer;
+            user-select: none;
+            gap: 2px;
+            font-weight: 600;
+            font-size: 12px;
+            color: #9CA3AF;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            border: none;
+        }
+
+        .lang span {
+            position: relative;
+            padding: 5px 10px;
+            border-radius: 9999px;
+            transition: color 0.3s ease;
+            pointer-events: none;
+
+            &.langActive {
+                background-color: #2563eb;
+                color: white;
+                box-shadow: 0 2px 6px rgb(0 0 0 / 0.15);
+                pointer-events: auto;
+            }
+        }
+
+
+        .lang:hover {
+            color: #2563eb;
+            box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+        }
+
+        .lang:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px #2563eb;
+        }

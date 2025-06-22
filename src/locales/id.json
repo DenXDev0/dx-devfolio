@@ -1,0 +1,292 @@
+{
+  "hero": {
+    "name": "Deni Anggara",
+    "role": "Tech Enthusiast – Web Developer & Software Engineer",
+    "mission": "Menghidupkan ide lewat teknologi yang menginspirasi untuk pengalaman digital yang mudah diakses dan sempurna."
+  },
+  "nav": {
+    "about": "TENTANG",
+    "projects": "PROYEK",
+    "skills": "KETERAMPILAN TEKNIS",
+    "contact": "KONTAK"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "description": "<p>Seorang pengembang yang senang mengubah ide menjadi pengalaman digital yang nyata. Bersemangat untuk mencapai tujuan dan menciptakan sesuatu yang bermanfaat dan berdampak positif. Saya percaya bahwa proses ini adalah perjalanan kreatif yang menggabungkan logika dan imajinasi — sebuah perjalanan kreatif yang penuh tantangan, peluang belajar, dan ruang untuk terus berkembang.</p><p>Teknologi adalah ruang belajar tanpa henti. Saya akan terus mengeksplorasi bagaimana teknologi bisa menjadi jembatan antara ide dan solusi. Saat ini, saya sedang mengerjakan proyek open source di lingkungan Desktop GNU/Linux berbasis <wayland>Wayland</wayland>. Proyek ini berupa serangkaian widget — seperti panel bar, notifikasi daemon, pemutar media, integrasi AI di bilah Sidebar, panel kontrol, etc — yang dikembangkan menggunakan <gtk>GTK4</gtk> dengan <gjs>GJS</gjs>, serta <astal>Astal (TypeScript + JSX)</astal>.</p>"
+  },
+  "projects": {
+    "title": "Proyek",
+    "items": [
+      {
+        "title": "KubeShell7en",
+        "description": "Sebuah proyek open source di lingkungan GNU/Linux, berupa serangkaian widget — seperti bar, app launcher, notifikasi, pemutar media, integrasi AI, panel kontrol, shorcut/devtools, dan lainya.",
+        "tech": ["Gtk4", "GJS", "TS+JSX", "Sass (SCSS)", "Soup API"],
+        "image": "/images/KubeShell7en.png",
+        "link": "https://github.com/DenXDev0/KubeShell7en",
+        "linkDemo": "",
+        "date": { "month": "Maret", "year": "2025" }
+      },
+      {
+        "title": "My Personal Portfolio",
+        "description": "Portofolio pribadi yang menampilkan karya-karya saya secara rapi dan interaktif. Proyek ini menjadi etalase utama untuk memperkenalkan siapa saya dan apa yang saya buat.",
+        "tech": ["NextJS", "Sass (SCSS)"],
+        "image": "/images/MyPortfolio.png",
+        "link": "https://github.com/DenXDev0/dx-devfolio",
+        "linkDemo": "https://dx-devfolio.vercel.app/",
+        "date": { "month": "Juni", "year": "2025" }
+      },
+      {
+        "title": "Treemap Diagram",
+        "description": "Visualisasi treemap interaktif untuk menampilkan data hierarkis dengan cara yang intuitif dan efisien melalui persegi panjang bersarang.",
+        "tech": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+        "image": "/images/TreemapDiagram.png",
+        "link": "https://github.com/DenXDev0/TreemapDiagram",
+        "linkDemo": "https://treemap-diagram-liard.vercel.app/",
+        "date": { "month": "Juni", "year": "2025" }
+      },
+      {
+        "title": "Choropleth Map",
+        "description": "Visualisasi peta choropleth interaktif yang menampilkan data geografis dengan kode warna berdasarkan nilai numerik, memudahkan analisis spasial.",
+        "tech": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+        "image": "/images/ChoroplethMap.png",
+        "link": "https://github.com/DenXDev0/ChoroplethMap",
+        "linkDemo": "https://choropleth-map-beryl.vercel.app/",
+        "date": { "month": "Juni", "year": "2025" }
+      },
+      {
+        "title": "HeatMap",
+        "description": "Menyajikan data suhu permukaan daratan global bulanan dari tahun 1753 hingga 2015 dalam bentuk peta panas interaktif menggunakan D3.js.",
+        "tech": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+        "image": "/images/HeatMap.png",
+        "link": "https://github.com/DenXDev0/HeatMap",
+        "linkDemo": "https://heat-map-tau.vercel.app/",
+        "date": { "month": "Juni", "year": "2025" }
+      },
+      {
+        "title": "Scatterplot Graph",
+        "description": "Visualisasi scatterplot interaktif dengan D3.js yang memperlihatkan hubungan antar variabel dalam koordinat dua dimensi.",
+        "tech": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+        "image": "/images/ScatterplotGraph.png",
+        "link": "https://github.com/DenXDev0/ScatterplotGraph",
+        "linkDemo": "https://scatterplot-graph-rouge.vercel.app/",
+        "date": { "month": "Juni", "year": "2025" }
+      },
+      {
+        "title": "Bar Chart",
+        "description": "Visualisasi interaktif Produk Domestik Bruto (PDB) dengan grafik batang menggunakan D3.js. Menyediakan tooltip dengan informasi detail saat pengguna mengarahkan kursor.",
+        "tech": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+        "image": "/images/BarChart.png",
+        "link": "https://github.com/DenXDev0/BarChart",
+        "linkDemo": "https://bar-chart-gilt.vercel.app/",
+        "date": { "month": "Juni", "year": "2025" }
+      },
+      {
+        "title": "25 + 5 Clock",
+        "description": "Timer gaya Pomodoro berbasis React yang bergantian antara sesi kerja dan istirahat. Pengguna bisa mengatur durasi dan mengontrol timer.",
+        "tech": ["React", "CSS3"],
+        "image": "/images/25+5Clock.png",
+        "link": "https://github.com/DenXDev0/25-5_Clock",
+        "linkDemo": "https://25-5-clock-orpin.vercel.app/",
+        "date": { "month": "Januari", "year": "2025" }
+      },
+      {
+        "title": "JavaScript Calculator",
+        "description": "Kalkulator sederhana berbasis React yang mendukung operasi aritmetika dasar dengan pengelolaan input dan dukungan desimal.",
+        "tech": ["React", "CSS3"],
+        "image": "/images/JavaScriptCalculator.png",
+        "link": "https://github.com/DenXDev0/JavaScriptCalculator",
+        "linkDemo": "https://java-script-calculator-ashen.vercel.app/",
+        "date": { "month": "Januari", "year": "2025" }
+      },
+      {
+        "title": "Drum Machine",
+        "description": "Aplikasi Drum Machine yang memungkinkan pengguna memainkan suara drum dengan klik mouse atau keyboard. Dilengkapi kontrol volume dan tombol daya.",
+        "tech": ["React", "CSS3"],
+        "image": "/images/DrumMachine.png",
+        "link": "https://github.com/DenXDev0/DrumMachine",
+        "linkDemo": "https://drum-machine-two-xi.vercel.app/",
+        "date": { "month": "Januari", "year": "2025" }
+      },
+      {
+        "title": "Markdown Previewer",
+        "description": "Markdown Previewer yang memungkinkan pengguna mengetik Markdown dan langsung melihat hasil render HTML dengan highlight sintaks.",
+        "tech": ["React", "CSS3", "Marked.js", "Highlight.js"],
+        "image": "/images/MarkdownPreviewer.png",
+        "link": "https://github.com/DenXDev0/MarkdownPreviewer",
+        "linkDemo": "https://markdown-previewer-fawn-three.vercel.app/",
+        "date": { "month": "Januari", "year": "2025" }
+      },
+      {
+        "title": "Random Quote Machine",
+        "description": "Aplikasi React untuk menampilkan kutipan acak dari API publik dengan latar dinamis, timer, dan opsi berbagi.",
+        "tech": ["React", "CSS3", "DummyJSON-API"],
+        "image": "/images/RandomQuoteMachine.png",
+        "link": "https://github.com/DenXDev0/RandomQuoteMachine",
+        "linkDemo": "https://random-quote-machine-kappa-sooty.vercel.app/",
+        "date": { "month": "Desember", "year": "2024" }
+      },
+      {
+        "title": "RPG Creature Search App",
+        "description": "Aplikasi pencarian Pokémon yang memungkinkan pengguna mencari berdasarkan nama atau ID dan menampilkan informasi secara interaktif.",
+        "tech": ["React", "CSS3", "PokéAPI"],
+        "image": "/images/PokemonSearchApp.png",
+        "link": "https://github.com/DenXDev0/RPGCreatureSearchApp",
+        "linkDemo": "https://rpg-creature-search-app-five.vercel.app/",
+        "date": { "month": "November", "year": "2024" }
+      },
+      {
+        "title": "Cash Register",
+        "description": "Aplikasi kasir interaktif untuk memilih produk, memasukkan jumlah uang, dan menghitung kembalian secara rinci.",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
+        "image": "/images/CashRegister.png",
+        "link": "https://github.com/DenXDev0/CashRegister",
+        "linkDemo": "https://cash-register-chi.vercel.app/",
+        "date": { "month": "November", "year": "2024" }
+      },
+      {
+        "title": "Telephone Number Validator",
+        "description": "Aplikasi web sederhana untuk memvalidasi nomor telepon AS berdasarkan format umum.",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
+        "image": "/images/TelephoneNumberValidator.png",
+        "link": "https://github.com/DenXDev0/TelephoneNumberValidator",
+        "linkDemo": "https://telephone-number-validator-three.vercel.app/",
+        "date": { "month": "November", "year": "2024" }
+      },
+      {
+        "title": "Roman Numeral Converter",
+        "description": "Aplikasi konversi angka desimal (1–3999) ke bentuk angka Romawi secara langsung dan instan.",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
+        "image": "/images/RomanNumeralConverter.png",
+        "link": "https://github.com/DenXDev0/RomanNumeralConverter",
+        "linkDemo": "https://roman-numeral-converter-red-nine.vercel.app/",
+        "date": { "month": "November", "year": "2024" }
+      },
+      {
+        "title": "Advanced Palindrome Checker",
+        "description": "Aplikasi web interaktif untuk memeriksa apakah kata, frasa, atau angka merupakan palindrom. Mengabaikan spasi, tanda baca, dan karakter khusus.",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
+        "image": "/images/PalindromeChecker.png",
+        "link": "https://github.com/DenXDev0/PalindromeChecker",
+        "linkDemo": "https://palindrome-checker-teal-tau.vercel.app/",
+        "date": { "month": "Oktober", "year": "2024" }
+      },
+      {
+        "title": "Animation Company - Product Landing Page",
+        "description": "Halaman landing responsif untuk perusahaan animasi fiktif, dibangun dengan HTML dan CSS.",
+        "tech": ["HTML5", "CSS3"],
+        "image": "/images/ProductLandingPage.png",
+        "link": "https://github.com/DenXDev0/ProductLandingPage",
+        "linkDemo": "https://product-landing-page-gold-sigma.vercel.app/",
+        "date": { "month": "Agustus", "year": "2024" }
+      },
+      {
+        "title": "Technical Documentation Page",
+        "description": "Halaman dokumentasi teknis sederhana dan responsif yang dibangun dengan HTML dan CSS eksternal.",
+        "tech": ["HTML5", "CSS3"],
+        "image": "/images/TechnicalDocumentationPage.png",
+        "link": "https://github.com/DenXDev0/TechnicalDocumentationPage",
+        "linkDemo": "https://technical-documentation-page-teal.vercel.app/",
+        "date": { "month": "Agustus", "year": "2024" }
+      },
+      {
+        "title": "Tribute Page",
+        "description": "Halaman tribut sederhana dan responsif yang dibangun menggunakan HTML dan CSS.",
+        "tech": ["HTML5", "CSS3"],
+        "image": "/images/TributePage.png",
+        "link": "https://github.com/DenXDev0/TributePage",
+        "linkDemo": "https://tribute-page-xi-one.vercel.app/",
+        "date": { "month": "Agustus", "year": "2024" }
+      },
+      {
+        "title": "Survey Form",
+        "description": "Formulir survei pengalaman pengguna yang responsif, dibangun untuk mengumpulkan umpan balik terkait UI/UX suatu situs web.",
+        "tech": ["HTML5", "CSS3"],
+        "image": "/images/SurveyForm.png",
+        "link": "https://github.com/DenXDev0/SurveyForm",
+        "linkDemo": "https://survey-form-ten-gules.vercel.app/",
+        "date": { "month": "Agustus", "year": "2024" }
+      },
+      {
+        "title": "My Old Portfolio",
+        "description": "Versi awal dari portofolio pribadi. Dibuat menggunakan stack dasar web (HTML, CSS, JavaScript) sebagai latihan awal membangun UI dan struktur website statis.",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
+        "image": "/images/MyOldPortfolio.png",
+        "link": "https://github.com/den80e5/den80e5.github.io",
+        "linkDemo": "https://den80e5.github.io/",
+        "date": { "month": "Desember", "year": "2023" }
+      }
+    ]
+  },
+  "plannedProjects": {
+    "title": "Rencana / Proyek Mendatang",
+    "items": [
+      {
+        "title": "KubeShell7en (Progress)",
+        "description": "Sistem widget desktop untuk Linux menggunakan GTK4 dan GJS untuk alat produktivitas."
+      },
+      {
+        "title": "To-Do List",
+        "description": "Sebuah Aplikasi To-Do List untuk mengembangkan kemampuan backend yang sudah saya pelajari, terutama dalam pembuatan API, manajemen database, dan autentikasi pengguna."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Keterampilan Teknis",
+    "info": ["Learning plans", "Being learned", "Using"],
+    "items": [
+      {
+        "title": "Framework & Library Frontend",
+        "tech": ["HTML", "JavaScript", "TypeScript", "React", "Next.js", "D3", "Redux"]
+      },
+      {
+        "title": "Styling & Framework UI",
+        "tech": ["CSS", "Sass (SCSS)", "Bootstrap", "Tailwind"]
+      },
+      {
+        "title": "Backend",
+        "tech": ["Node.js", "Express", "PostgreSQL", "GraphQL", "PHP"]
+      },
+      {
+        "title": "UI Desktop & Framework",
+        "tech": ["GTK4", "GJS", "Astal"]
+      },
+      {
+        "title": "DevOps & CI/CD",
+        "tech": ["Docker", "CI/CD", "GitHub Actions", "Jenkins"]
+      },
+      {
+        "title": "Alat, Platform & Utilitas",
+        "tech": ["Linux", "Bash", "Neovim", "VSCode/VSCodium", "Figma", "GitHub", "Curl", "Postman"]
+      }
+    ]
+  },
+  "learningPlans": {
+    "title": "Rencana Pembelajaran",
+    "items": [
+      {
+        "topic": "Backend (Progress)",
+        "goal": "Meningkatkan keterampilan dalam pengembangan backend — Node.js, PostgreSQL, dan GraphQL."
+      },
+      {
+        "topic": "DevOps & Otomatisasi",
+        "goal": "Memperdalam pemahaman tentang pipeline CI/CD, container, dan alat deploy."
+      },
+      {
+        "topic": "Redux",
+        "goal": "Memahami Redux untuk manajemen state yang skalabel pada aplikasi React besar."
+      },
+      {
+        "topic": "Integrasi AI / LLM",
+        "goal": "Mengeksplorasi integrasi model bahasa ke dalam aplikasi untuk asisten cerdas."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "text": "Jika Anda tertarik untuk berkolaborasi, memiliki pertanyaan, atau ingin mendiskusikan proyek, silakan hubungi saya. Saya akan membalas secepat mungkin.",
+    "buttonText": "Kirim Pesan"
+  },
+  "footer": {
+    "text": "© 2025 DenXDev. Situs web ini dibangun menggunakan <nextjs>Next.js</nextjs> untuk SSR/SSG & performa, dan ditata dengan <sass>Sass (SCSS)</sass> untuk kode yang rapi & alur kerja modular. Terima kasih khusus kepada <inspiration>bchiang7/v4</inspiration> atas desain yang menginspirasi. Lihat kode sumber di <github>GitHub saya</github>."
+  }
+}

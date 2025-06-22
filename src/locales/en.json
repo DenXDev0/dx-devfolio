@@ -1,0 +1,292 @@
+{
+  "hero": {
+    "name": "Deni Anggara",
+    "role": "Tech Enthusiast – Web Developer & Software Engineer",
+    "mission": "Bringing ideas to life through inspiring technology for accessible and seamless digital experiences."
+  },
+  "nav": {
+    "about": "ABOUT",
+    "projects": "PROJECTS",
+    "skills": "TECHNICAL SKILLS",
+    "contact": "CONTACT"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "<p>A developer passionate about turning ideas into real digital experiences. Driven to achieve goals and create something useful and impactful. I believe this process is a creative journey that blends logic and imagination — a journey full of challenges, learning opportunities, and space for continuous growth.</p> <p>Technology is a never-ending learning space. I will continue to explore how it can serve as a bridge between ideas and solutions. Currently, I’m working on an open-source project for a Desktop GNU/Linux environment based on <wayland>Wayland</wayland>. The project consists of a series of widgets — such as a panel bar, notification daemon, media player, AI integration in the Sidebar, control panel, and more — developed using <gtk>GTK4</gtk> with <gjs>GJS</gjs>, as well as <astal>Astal (TypeScript + JSX)</astal>.</p>"
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "title": "KubeShell7en",
+        "description": "An open-source project for GNU/Linux environments, consisting of a set of widgets — such as bar, app launcher, notifications, media player, AI integration, control panel, shortcuts/devtools, and more.",
+        "tech": ["Gtk4", "GJS", "TS+JSX", "Sass (SCSS)", "Soup API"],
+        "image": "/images/KubeShell7en.png",
+        "link": "https://github.com/DenXDev0/KubeShell7en",
+        "linkDemo": "",
+        "date": { "month": "March", "year": "2025" }
+      },
+      {
+        "title": "My Personal Portfolio",
+        "description": "A personal portfolio showcasing my works in a clean and interactive manner. This project serves as the main showcase to introduce who I am and what I build.",
+        "tech": ["NextJS", "Sass (SCSS)"],
+        "image": "/images/MyPortfolio.png",
+        "link": "https://github.com/DenXDev0/dx-devfolio",
+        "linkDemo": "https://dx-devfolio.vercel.app/",
+        "date": { "month": "June", "year": "2025" }
+      },
+      {
+        "title": "Treemap Diagram",
+        "description": "An interactive treemap visualization to display hierarchical data in an intuitive and efficient way using nested rectangles.",
+        "tech": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+        "image": "/images/TreemapDiagram.png",
+        "link": "https://github.com/DenXDev0/TreemapDiagram",
+        "linkDemo": "https://treemap-diagram-liard.vercel.app/",
+        "date": { "month": "June", "year": "2025" }
+      },
+      {
+        "title": "Choropleth Map",
+        "description": "An interactive choropleth map visualizing geographical data with color codes based on numerical values, facilitating spatial analysis.",
+        "tech": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+        "image": "/images/ChoroplethMap.png",
+        "link": "https://github.com/DenXDev0/ChoroplethMap",
+        "linkDemo": "https://choropleth-map-beryl.vercel.app/",
+        "date": { "month": "June", "year": "2025" }
+      },
+      {
+        "title": "HeatMap",
+        "description": "Displays monthly global land surface temperature data from 1753 to 2015 in an interactive heatmap using D3.js.",
+        "tech": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+        "image": "/images/HeatMap.png",
+        "link": "https://github.com/DenXDev0/HeatMap",
+        "linkDemo": "https://heat-map-tau.vercel.app/",
+        "date": { "month": "June", "year": "2025" }
+      },
+      {
+        "title": "Scatterplot Graph",
+        "description": "An interactive scatterplot visualization using D3.js that shows relationships between variables in two-dimensional coordinates.",
+        "tech": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+        "image": "/images/ScatterplotGraph.png",
+        "link": "https://github.com/DenXDev0/ScatterplotGraph",
+        "linkDemo": "https://scatterplot-graph-rouge.vercel.app/",
+        "date": { "month": "June", "year": "2025" }
+      },
+      {
+        "title": "Bar Chart",
+        "description": "An interactive visualization of Gross Domestic Product (GDP) using bar charts with D3.js. Includes tooltips with detailed information on hover.",
+        "tech": ["HTML5", "CSS3", "JavaScript", "D3.js"],
+        "image": "/images/BarChart.png",
+        "link": "https://github.com/DenXDev0/BarChart",
+        "linkDemo": "https://bar-chart-gilt.vercel.app/",
+        "date": { "month": "June", "year": "2025" }
+      },
+      {
+        "title": "25 + 5 Clock",
+        "description": "A Pomodoro-style timer built with React that alternates between work and break sessions. Users can adjust duration and control the timer.",
+        "tech": ["React", "CSS3"],
+        "image": "/images/25+5Clock.png",
+        "link": "https://github.com/DenXDev0/25-5_Clock",
+        "linkDemo": "https://25-5-clock-orpin.vercel.app/",
+        "date": { "month": "January", "year": "2025" }
+      },
+      {
+        "title": "JavaScript Calculator",
+        "description": "A simple calculator built with React that supports basic arithmetic operations, input management, and decimal handling.",
+        "tech": ["React", "CSS3"],
+        "image": "/images/JavaScriptCalculator.png",
+        "link": "https://github.com/DenXDev0/JavaScriptCalculator",
+        "linkDemo": "https://java-script-calculator-ashen.vercel.app/",
+        "date": { "month": "January", "year": "2025" }
+      },
+      {
+        "title": "Drum Machine",
+        "description": "A Drum Machine app that lets users play drum sounds via mouse click or keyboard. Features volume control and power toggle.",
+        "tech": ["React", "CSS3"],
+        "image": "/images/DrumMachine.png",
+        "link": "https://github.com/DenXDev0/DrumMachine",
+        "linkDemo": "https://drum-machine-two-xi.vercel.app/",
+        "date": { "month": "January", "year": "2025" }
+      },
+      {
+        "title": "Markdown Previewer",
+        "description": "A Markdown Previewer that lets users type Markdown and instantly view the rendered HTML output with syntax highlighting.",
+        "tech": ["React", "CSS3", "Marked.js", "Highlight.js"],
+        "image": "/images/MarkdownPreviewer.png",
+        "link": "https://github.com/DenXDev0/MarkdownPreviewer",
+        "linkDemo": "https://markdown-previewer-fawn-three.vercel.app/",
+        "date": { "month": "January", "year": "2025" }
+      },
+      {
+        "title": "Random Quote Machine",
+        "description": "A React app that displays random quotes from a public API with dynamic backgrounds, timer, and sharing options.",
+        "tech": ["React", "CSS3", "DummyJSON-API"],
+        "image": "/images/RandomQuoteMachine.png",
+        "link": "https://github.com/DenXDev0/RandomQuoteMachine",
+        "linkDemo": "https://random-quote-machine-kappa-sooty.vercel.app/",
+        "date": { "month": "December", "year": "2024" }
+      },
+      {
+        "title": "RPG Creature Search App",
+        "description": "A Pokémon search app that allows users to search by name or ID and displays interactive information.",
+        "tech": ["React", "CSS3", "PokéAPI"],
+        "image": "/images/PokemonSearchApp.png",
+        "link": "https://github.com/DenXDev0/RPGCreatureSearchApp",
+        "linkDemo": "https://rpg-creature-search-app-five.vercel.app/",
+        "date": { "month": "November", "year": "2024" }
+      },
+      {
+        "title": "Cash Register",
+        "description": "An interactive cash register app for selecting products, entering payment amount, and calculating change in detail.",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
+        "image": "/images/CashRegister.png",
+        "link": "https://github.com/DenXDev0/CashRegister",
+        "linkDemo": "https://cash-register-chi.vercel.app/",
+        "date": { "month": "November", "year": "2024" }
+      },
+      {
+        "title": "Telephone Number Validator",
+        "description": "A simple web app to validate US phone numbers based on common formats.",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
+        "image": "/images/TelephoneNumberValidator.png",
+        "link": "https://github.com/DenXDev0/TelephoneNumberValidator",
+        "linkDemo": "https://telephone-number-validator-three.vercel.app/",
+        "date": { "month": "November", "year": "2024" }
+      },
+      {
+        "title": "Roman Numeral Converter",
+        "description": "A converter app that transforms decimal numbers (1–3999) into Roman numerals instantly.",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
+        "image": "/images/RomanNumeralConverter.png",
+        "link": "https://github.com/DenXDev0/RomanNumeralConverter",
+        "linkDemo": "https://roman-numeral-converter-red-nine.vercel.app/",
+        "date": { "month": "November", "year": "2024" }
+      },
+      {
+        "title": "Advanced Palindrome Checker",
+        "description": "An interactive web app to check whether a word, phrase, or number is a palindrome, ignoring spaces, punctuation, and special characters.",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
+        "image": "/images/PalindromeChecker.png",
+        "link": "https://github.com/DenXDev0/PalindromeChecker",
+        "linkDemo": "https://palindrome-checker-teal-tau.vercel.app/",
+        "date": { "month": "October", "year": "2024" }
+      },
+      {
+        "title": "Animation Company - Product Landing Page",
+        "description": "A responsive landing page for a fictional animation company, built with HTML and CSS.",
+        "tech": ["HTML5", "CSS3"],
+        "image": "/images/ProductLandingPage.png",
+        "link": "https://github.com/DenXDev0/ProductLandingPage",
+        "linkDemo": "https://product-landing-page-gold-sigma.vercel.app/",
+        "date": { "month": "August", "year": "2024" }
+      },
+      {
+        "title": "Technical Documentation Page",
+        "description": "A simple and responsive technical documentation page built using HTML and external CSS.",
+        "tech": ["HTML5", "CSS3"],
+        "image": "/images/TechnicalDocumentationPage.png",
+        "link": "https://github.com/DenXDev0/TechnicalDocumentationPage",
+        "linkDemo": "https://technical-documentation-page-teal.vercel.app/",
+        "date": { "month": "August", "year": "2024" }
+      },
+      {
+        "title": "Tribute Page",
+        "description": "A simple and responsive tribute page built using HTML and CSS.",
+        "tech": ["HTML5", "CSS3"],
+        "image": "/images/TributePage.png",
+        "link": "https://github.com/DenXDev0/TributePage",
+        "linkDemo": "https://tribute-page-xi-one.vercel.app/",
+        "date": { "month": "August", "year": "2024" }
+      },
+      {
+        "title": "Survey Form",
+        "description": "A responsive user experience survey form, built to gather feedback on website UI/UX.",
+        "tech": ["HTML5", "CSS3"],
+        "image": "/images/SurveyForm.png",
+        "link": "https://github.com/DenXDev0/SurveyForm",
+        "linkDemo": "https://survey-form-ten-gules.vercel.app/",
+        "date": { "month": "August", "year": "2024" }
+      },
+      {
+        "title": "My Old Portfolio",
+        "description": "An early version of my personal portfolio. Built with basic web stack (HTML, CSS, JavaScript) as initial practice in UI and static site structure.",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
+        "image": "/images/MyOldPortfolio.png",
+        "link": "https://github.com/den80e5/den80e5.github.io",
+        "linkDemo": "https://den80e5.github.io/",
+        "date": { "month": "December", "year": "2023" }
+      }
+    ]
+  },
+  "plannedProjects": {
+    "title": "Planned / Upcoming Projects",
+    "items": [
+      {
+        "title": "KubeShell7en (In Progress)",
+        "description": "A desktop widget system for Linux using GTK4 and GJS for productivity tools."
+      },
+      {
+        "title": "To-Do List",
+        "description": "A To-Do List app aimed at enhancing my backend skills, especially in building APIs, managing databases, and implementing user authentication."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "info": ["Learning plans", "Being learned", "Using"],
+    "items": [
+      {
+        "title": "Frontend Framework & Library",
+        "tech": ["HTML", "JavaScript", "TypeScript", "React", "Next.js", "D3", "Redux"]
+      },
+      {
+        "title": "Styling & UI Frameworks",
+        "tech": ["CSS", "Sass (SCSS)", "Bootstrap", "Tailwind"]
+      },
+      {
+        "title": "Backend",
+        "tech": ["Node.js", "Express", "PostgreSQL", "GraphQL", "PHP"]
+      },
+      {
+        "title": "Desktop UI & Framework",
+        "tech": ["GTK4", "GJS", "Astal"]
+      },
+      {
+        "title": "DevOps & CI/CD",
+        "tech": ["Docker", "CI/CD", "GitHub Actions", "Jenkins"]
+      },
+      {
+        "title": "Tools, Platforms & Utilities",
+        "tech": ["Linux", "Bash", "Neovim", "VSCode/VSCodium", "Figma", "GitHub", "Curl", "Postman"]
+      }
+    ]
+  },
+  "learningPlans": {
+    "title": "Learning Plans",
+    "items": [
+      {
+        "topic": "Backend (In Progress)",
+        "goal": "Enhance skills in backend development — Node.js, PostgreSQL, and GraphQL."
+      },
+      {
+        "topic": "DevOps & Automation",
+        "goal": "Deepen understanding of CI/CD pipelines, containers, and deployment tools."
+      },
+      {
+        "topic": "Redux",
+        "goal": "Learn Redux for scalable state management in large React applications."
+      },
+      {
+        "topic": "AI / LLM Integration",
+        "goal": "Explore integrating language models into applications for smart assistant features."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "text": "If you're interested in collaborating, have a question, or would like to discuss a project, feel free to reach out. I'll get back to you as soon as possible.",
+    "buttonText": "Drop Me a Line"
+  },
+  "footer": {
+    "text": "© 2025 DenXDev. This website was built with <nextjs>Next.js</nextjs> for SSR/SSG & performance, styled with <sass>Sass (SCSS)</sass> for a clean code & modular workflow. Special thanks to <inspiration>bchiang7/v4</inspiration> for the inspiring design. View the source on <github>my GitHub</github>."
+  }
+}

@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .hero {
+        .name {
+            margin: 6rem 0 0 0;
+            font-size: 3rem;
+            color: var(--text);
+        }
+    
+        .role {
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-weight: 500;
+            color: var(--text);
+        }
+    
+        .mission {
+            font-size: 1rem;
+            // line-height: 1.4rem;
+        }
+    }
+    
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        gap: 1rem;
+        margin-bottom: 5rem;
+        
+        .ToggleControl {
+            display: flex;
+            justify-content: start;
+            gap: 1rem;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+  .name {
+      margin: 3rem 0 0 0 !important;
+  }
+
+  .bottom {
+    margin-bottom: 0 !important;
+  }
+}

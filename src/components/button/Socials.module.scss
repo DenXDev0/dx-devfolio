@@ -1,0 +1,15 @@
+        .socials {
+            display: flex;
+            justify-content: start;
+            gap: 1.5rem;
+                
+            a {
+                font-size: 1.5rem;
+                color: var(--text-fg);
+                transition: color 0.3s;
+
+                &:hover {
+                    color: var(--accent);
+                }
+            }
+        }

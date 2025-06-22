@@ -1,0 +1,78 @@
+
+
+        .toggle {
+        position: relative;
+        width: 70px;
+        height: 36px;
+        background: var(--btn-bg);
+        border-radius: 9999px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 8px;
+        transition: background-color 0.3s ease;
+        overflow: hidden;
+        }
+
+        .toggle.dark {
+        background: var(--btn-bg);
+        }
+
+        .knob {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 20px;
+        height: 20px;
+        background: var(--btn-bg);
+        border: 2.5px solid #FFBB52;
+        border-radius: 50%;
+        box-shadow: 0 2px 6px rgb(0 0 0 / 0.15);
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                    background-color 0.3s ease;
+        z-index: 2;
+        }
+
+        .toggle.dark .knob {
+        transform: translateX(34px);
+        background: #1f2937;
+        border: 2.5px solid #9CA3AF;
+        }
+
+        .moon,
+        .sun {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        transition: color 0.3s ease;
+        // color: #6b7280;
+        z-index: 1;
+        }
+
+        .toggle.dark .moon {
+        color: #9ca3af;
+        }
+
+        .toggle.dark .sun {
+        color: #fbbf24;
+        }
+
+        .toggle:not(.dark) .moon {
+        color: #374151;
+        }
+
+        .toggle:not(.dark) .sun {
+        color: #FFBB52;
+        }
+
+        .toggle:hover {
+        box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+        }
+
+        .toggle:focus-visible {
+        outline: none;
+        box-shadow: 0 0 0 3px #2563eb;
+        }

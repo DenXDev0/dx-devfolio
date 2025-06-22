@@ -1,0 +1,56 @@
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: 0 15px;
+    font-style: inherit;
+    gap: 1rem;
+    // border-bottom: 2px solid var(--border);
+    margin-bottom: 2rem;
+
+    .Back {
+        display: flex;
+        gap: 0.4rem;
+        align-items: center;
+        font-size: 1.2rem;
+        color: var(--text);
+        font-weight: 600;
+        text-decoration: inherit;
+        
+        
+        svg {
+            // margin-right: 1rem;
+            transition: transform 0.3s ease-in-out;
+        }
+        &:hover {
+          span {
+            border-bottom: 2px solid #1eb955;
+          }
+          svg {
+            color: #1eb955;
+            transform: translateX(-50%);
+          }
+        }
+    }
+
+    .Title {
+        color: var(--text);
+    }
+
+
+    .ToggleControl {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+
+@media (max-width: 768px) {
+  .Header {
+  padding: 1rem;
+
+    .Title {
+      display: none !important;
+    }
+  }
+}
