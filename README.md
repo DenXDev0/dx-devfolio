@@ -1,37 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧑‍💻 My Personal Portfolio
 
-## Getting Started
+A personal portfolio showcasing my works in a clean and interactive manner.
+This project serves as the main showcase to introduce who I am and what I build.
 
-First, run the development server:
+Built with **Next.js** for SSR/SSG and performance, and styled using **Sass (SCSS)** for a modular, maintainable codebase.
+Special thanks to [`bchiang7/v4`](https://github.com/bchiang7/v4) for the design inspiration.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can check out the live portfolio at:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 **[https://dx-devfolio.vercel.app/](https://dx-devfolio.vercel.app/)**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Technologies Used
 
-## Learn More
+* **[Next.js](https://nextjs.org/):** React framework for high-performance web apps.
+* **[Sass (SCSS)](https://sass-lang.com/):** CSS preprocessor for modular and maintainable styling.
+* **[React Icons](https://react-icons.github.io/react-icons/):** Lightweight icon library for React.
+* **[Vercel](https://vercel.com/):** Deployment platform (optional) for modern web apps.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Installation & Setup
 
-## Deploy on Vercel
+1. **Clone this repository:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/username/portfolio-nextjs.git
+   cd portfolio-nextjs
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# MyPersonalPortfolio
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) to view the site in your browser.
+
+---
+
+## 📆 Production Build
+
+To create an optimized production build and run the server:
+
+1. **Build the application:**
+
+   ```bash
+   npm run build
+   ```
+
+2. **Start the production server:**
+
+   ```bash
+   npm start
+   ```
+
+Open [http://localhost:3000](http://localhost:3000) to view the site in your browser.
+
+---
