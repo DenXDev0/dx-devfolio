@@ -10,10 +10,10 @@ export default function About() {
       <div>
         {t.rich('description', {
           p: (chunks) => <p>{chunks}</p>,
-          gtk: (chunks) => <a href='#blank'>{chunks}</a>,
-          gjs: (chunks) => <a href='#blank'>{chunks}</a>,
-          astal: (chunks) => <a href='#blank'>{chunks}</a>,
-          wayland: (chunks) => <a href='#blank'>{chunks}</a>,
+          gtk: (chunks) => <a href='https://www.gtk.org/'>{chunks}</a>,
+          gjs: (chunks) => <a href='https://gjs.guide/'>{chunks}</a>,
+          astal: (chunks) => <a href='https://aylur.github.io/astal/'>{chunks}</a>,
+          wayland: (chunks) => <a href='https://wayland.freedesktop.org/'>{chunks}</a>,
         })}
       </div>
     </section>
