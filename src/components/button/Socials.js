@@ -28,6 +28,16 @@ const socials = [
     href: 'https://ko-fi.com/denxdev',
     icon: <FaCoffee />,
   },
+  {
+    label: 'FreeCodeCamp',
+    href: 'https://www.freecodecamp.org/DenXDev',
+    icon: <FaFreeCodeCamp />,
+  },
+  {
+    label: 'HackerRank',
+    href: 'https://www.hackerrank.com/profile/denxdev',
+    icon: <FaHackerrank />,
+  },
 ];
 
 export function Socials() {
