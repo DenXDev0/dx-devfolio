@@ -1,5 +1,5 @@
 import styles from './Socials.module.scss';
-import { FaGithub, FaLinkedin, FaInstagram, FaCoffee } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaCoffee, FaHackerrank, FaFreeCodeCamp } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 
 const socials = [
