@@ -4,7 +4,7 @@ import {getLocale} from 'next-intl/server';
 
 
 export const metadata = {
-  title: 'DenXDev',
+  title: 'DenXDev - Portfolio',
   description: "Hi, I'm Deni! This is where I showcase my work, share open-source projects, and document my coding journey.",
   icons: {
     icon: "/MyPortfolio.svg",
