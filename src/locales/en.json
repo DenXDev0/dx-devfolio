@@ -13,7 +13,7 @@
   "about": {
     "title": "About Me",
     "description": "<p>I’m a certified Frontend Developer passionate about transforming ideas into functional and user-friendly digital experiences. Combining creativity with logic, I approach each project with attention to detail and a problem-solving mindset to deliver pixel-perfect results. I continuously learn and adapt to new technologies to deliver quality solutions.</p><p>Currently, I’m engaged in an open-source project focused on building a Desktop GNU/Linux environment using <wayland>Wayland</wayland>, <gtk>GTK4</gtk>, and <astal>Astal (TypeScript + JSX)</astal>, showcasing my interest in both frontend technologies and system-level development.</p>"
-  }
+  },
   "projects": {
     "title": "Projects",
     "items": [
