@@ -2,7 +2,7 @@
   "hero": {
     "name": "Deni Anggara",
     "role": "Tech Enthusiast – Web Developer & Software Engineer",
-    "mission": "Bringing ideas to life through inspiring technology for accessible and seamless digital experiences."
+    "mission": ""
   },
   "nav": {
     "about": "ABOUT",
@@ -12,8 +12,8 @@
   },
   "about": {
     "title": "About Me",
-    "description": "<p>A developer passionate about turning ideas into real digital experiences. Driven to achieve goals and create something useful and impactful. I believe this process is a creative journey that blends logic and imagination — a journey full of challenges, learning opportunities, and space for continuous growth.</p> <p>Technology is a never-ending learning space. I will continue to explore how it can serve as a bridge between ideas and solutions. Currently, I’m working on an open-source project for a Desktop GNU/Linux environment based on <wayland>Wayland</wayland>. The project consists of a series of widgets — such as a panel bar, notification daemon, media player, AI integration in the Sidebar, control panel, and more — developed using <gtk>GTK4</gtk> with <gjs>GJS</gjs>, as well as <astal>Astal (TypeScript + JSX)</astal>.</p>"
-  },
+    "description": "<p>I’m a certified Frontend Developer passionate about transforming ideas into functional and user-friendly digital experiences. Combining creativity with logic, I approach each project with attention to detail and a problem-solving mindset to deliver pixel-perfect results. I continuously learn and adapt to new technologies to deliver quality solutions.</p><p>Currently, I’m engaged in an open-source project focused on building a Desktop GNU/Linux environment using <wayland>Wayland</wayland>, <gtk>GTK4</gtk>, and <astal>Astal (TypeScript + JSX)</astal>, showcasing my interest in both frontend technologies and system-level development.</p>"
+  }
   "projects": {
     "title": "Projects",
     "items": [
