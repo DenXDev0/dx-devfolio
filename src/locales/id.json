@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "Tentang Saya",
-    "description": "<p>Saya adalah Frontend Developer bersertifikasi yang bersemangat mengubah ide menjadi pengalaman digital yang fungsional dan mudah digunakan. Dengan menggabungkan kreativitas dan logika, saya mengerjakan setiap proyek dengan perhatian pada detail dan pola pikir pemecahan masalah untuk menghasilkan hasil yang pixel-perfect. Saya terus belajar dan beradaptasi dengan teknologi baru agar dapat memberikan solusi berkualitas.</p><p>Saat ini, saya sedang terlibat dalam proyek open-source yang berfokus pada pengembangan lingkungan Desktop GNU/Linux menggunakan <wayland>Wayland</wayland>, <gtk>GTK4</gtk>, dan <astal>Astal (TypeScript + JSX)</astal>, yang menunjukkan ketertarikan saya pada teknologi frontend sekaligus pengembangan sistem.</p>"
+    "description": "<p>Saya adalah Frontend Developer bersertifikasi yang bersemangat mengubah ide menjadi pengalaman digital yang fungsional dan mudah digunakan. Dengan menggabungkan kreativitas dan logika, saya mengerjakan setiap proyek dengan perhatian pada detail dan pola pikir pemecahan masalah untuk menghasilkan hasil yang pixel-perfect. Saya terus belajar dan beradaptasi dengan teknologi baru agar dapat memberikan solusi berkualitas.</p><p>Teknologi adalah ruang pembelajaran yang tiada habisnya. Saya akan terus mengeksplorasi bagaimana teknologi dapat menjadi jembatan antara ide dan solusi.</p><p>Saat ini, saya sedang terlibat dalam proyek open-source yang berfokus pada pengembangan lingkungan Desktop GNU/Linux menggunakan <gtk>GTK4</gtk> dan <astal>Astal (TypeScript + JSX)</astal>, yang menunjukkan ketertarikan saya pada teknologi frontend sekaligus pengembangan sistem.</p>"
   },
   "projects": {
     "title": "Proyek",
