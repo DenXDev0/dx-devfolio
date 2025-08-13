@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "About Me",
-    "description": "<p>I fix things, build things, and sometimes refactor things just for fun.</p><p>Frontend-focused with a love for clean UI, reusable components, and efficient workflows — all while delivering smooth, user-friendly web experiences with React and Next.js. UI is my playground: SCSS, Tailwind, and Bootstrap.</p><p>The terminal feels like home — Linux, Git, and Neovim are my daily companions. Certified by HackerRank, FreeCodeCamp, Dicoding, and Google Cloud — so I’ve got the papers to back the pixels.</p><p>Open to frontend roles, freelance gigs, or any opportunity to contribute, grow, and build cool stuff.</p><p>Hire me — I ship fast, clean, and on point.</p>"
+    "description": "<p>I love building things, sometimes breaking them, and then rebuilding them to make them even better — whether it’s a web app, desktop app, or something entirely different.</p><p>Frontend is my playground. From crafting pixel-perfect UIs with React or Next.js to tinkering with system-level projects on Linux, I enjoy tackling challenges at every layer. SCSS, Tailwind, and Bootstrap keep the visuals sharp, while Linux, Git, and Neovim power my workflow.</p><p>If it’s software, I can build it. If it’s broken, I’ll fix it. And if it’s already perfect… I’ll still find a way to make it even better.</p><p>Open to frontend roles, freelance gigs, or any opportunity to contribute, grow, and build cool stuff.</p><p>Hire me — I ship fast, clean, and on point.</p>"
   },
   "projects": {
     "title": "Projects",
